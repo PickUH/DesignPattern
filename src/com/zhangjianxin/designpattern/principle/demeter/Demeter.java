@@ -72,6 +72,8 @@ class CollegeManager {
 //分析 SchoolManager 类的直接朋友类有哪些 Employee、CollegeManager
 //CollegeEmployee不方法参数，返回值，而是作为局部变量出现 不是 直接朋友 而是一个陌生类，这样违背了 迪米特法则
 class SchoolManager {
+
+
     //返回学校总部的员工
     public List<Employee> getAllEmployee() {
         List<Employee> list = new ArrayList<Employee>();
