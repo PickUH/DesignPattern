@@ -1,7 +1,7 @@
 package com.zhangjianxin.designpattern.singlepattern.type1;
 
 /**
- * 饿汉式（静态变量）单例
+ * 饿汉式（静态变量）单例线程安全
  * 优点：写法简单，类加载时完成对象实例化，避免线程同步问题
  * 缺点：没有懒加载，有可能内存浪费
  *

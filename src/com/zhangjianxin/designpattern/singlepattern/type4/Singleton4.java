@@ -1,16 +1,15 @@
-package com.zhangjianxin.designpattern.singlepattern.type3;
+package com.zhangjianxin.designpattern.singlepattern.type4;
 
 /**
- * 懒汉式（线程不安全）只能在单线程下使用
- * 如果在多线程下，一个线程进入了if，还未来得及往下执行，另一个线程也进来了if判断，会造成多个实例
- *
+ * 懒汉式（线程安全）
+ * 方法同步效率太低
  * 实际开发不用
  *
  * @Author: zhangjianxin
  * @Create: 2019-07-18 17:00
  * @Version V1.0
  **/
-public class Singleton3 {
+public class Singleton4 {
     public static void main(String[] args) {
         Singleton singleton1 = Singleton.getInstance();
         Singleton singleton2 = Singleton.getInstance();
@@ -23,9 +22,20 @@ class Singleton{
     private Singleton(){}
     private static Singleton instance;
 
-    public static Singleton getInstance(){
+    //懒汉式，加入了同步处理synchronized，解决线程安全问题
+    public static synchronized Singleton getInstance(){
         if (instance == null){
             instance = new Singleton();
+        }
+        return instance;
+    }
+
+    //懒汉式加载错误,解决不了多线程安全问题，不能用
+    public static Singleton getInstance2(){
+        if(instance == null){
+            synchronized (Singleton.class){
+                instance = new Singleton();
+            }
         }
         return instance;
     }
