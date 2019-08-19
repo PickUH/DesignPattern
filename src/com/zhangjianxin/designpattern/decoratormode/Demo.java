@@ -6,7 +6,7 @@ package com.zhangjianxin.designpattern.decoratormode;
  * 包括一个装饰者和被装饰者
  * 主要是将新
  *
- * java中的IO用到了装饰者模式
+ * java中的IO（FilterInputStream就是装饰者的共同的父类）用到了装饰者模式
  *
  *
  * @Author: zhangjianxin
