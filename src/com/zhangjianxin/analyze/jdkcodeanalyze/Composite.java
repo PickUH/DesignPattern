@@ -1,4 +1,4 @@
-package com.zhangjianxin.designpattern.jdkcodeanalyze;
+package com.zhangjianxin.analyze.jdkcodeanalyze;
 
 import java.util.HashMap;
 import java.util.Map;

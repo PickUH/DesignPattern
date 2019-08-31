@@ -1,4 +1,4 @@
-package com.zhangjianxin.designpattern.jdkcodeanalyze;
+package com.zhangjianxin.analyze.jdkcodeanalyze;
 
 /**
  * stringbuilder用到了建造者模式

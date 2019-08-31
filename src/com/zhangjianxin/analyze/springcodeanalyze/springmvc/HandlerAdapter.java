@@ -1,4 +1,4 @@
-package com.zhangjianxin.designpattern.springcodeanalyze.springmvc;
+package com.zhangjianxin.analyze.springcodeanalyze.springmvc;
 
 ///定义一个Adapter接口 
 public interface HandlerAdapter {

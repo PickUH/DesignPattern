@@ -1,4 +1,4 @@
-package com.zhangjianxin.designpattern.springcodeanalyze.springmvc;
+package com.zhangjianxin.analyze.springcodeanalyze.springmvc;
 
 //多种Controller实现  
 public interface Controller {

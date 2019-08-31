@@ -1,4 +1,4 @@
-package com.zhangjianxin.designpattern.springcodeanalyze.springmvc;
+package com.zhangjianxin.analyze.springcodeanalyze.springmvc;
 
 import java.util.ArrayList;
 import java.util.List;

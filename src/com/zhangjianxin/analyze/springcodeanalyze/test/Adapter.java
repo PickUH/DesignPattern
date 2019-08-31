@@ -1,4 +1,4 @@
-package com.zhangjianxin.designpattern.springcodeanalyze.test;
+package com.zhangjianxin.analyze.springcodeanalyze.test;
 
 /**
  * @Author: zhangjianxin

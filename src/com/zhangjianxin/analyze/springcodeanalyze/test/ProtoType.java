@@ -1,4 +1,4 @@
-package com.zhangjianxin.designpattern.springcodeanalyze.test;
+package com.zhangjianxin.analyze.springcodeanalyze.test;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
